@@ -1,0 +1,16 @@
+{
+  "name": "build-a-chat-app",
+  "version": "1.0.0",
+  "description": "A real-time multi-client chat server using Node.js and WebSockets.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  },
+  "author": "Ulrich ADIMI",
+  "license": "MIT"
+}
